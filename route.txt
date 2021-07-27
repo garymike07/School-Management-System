@@ -1,0 +1,21 @@
+
+   ErrorException  : include(D:\xampp\htdocs\School_Management_System\vendor\composer/../../app/Http/Controllers/Admin/TagCrudController.php): failed to open stream: No such file or directory
+
+  at D:\xampp\htdocs\School_Management_System\vendor\composer\ClassLoader.php:444
+    440|  * Prevents access to $this/self from included files.
+    441|  */
+    442| function includeFile($file)
+    443| {
+  > 444|     include $file;
+    445| }
+    446|
+
+  Exception trace:
+
+  1   include()
+      D:\xampp\htdocs\School_Management_System\vendor\composer\ClassLoader.php:444
+
+  2   Composer\Autoload\includeFile("D:\xampp\htdocs\School_Management_System\vendor\composer/../../app/Http/Controllers/Admin/TagCrudController.php")
+      D:\xampp\htdocs\School_Management_System\vendor\composer\ClassLoader.php:322
+
+  Please use the argument -v to see more details.
